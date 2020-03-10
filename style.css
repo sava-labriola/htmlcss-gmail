@@ -1,0 +1,77 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 30px;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 30px;
+}
+
+body{
+    color: white;
+    width: 50%;
+    margin: auto;
+    background-image: url(img/sfondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    border-radius: 10px;
+    vertical-align: middle;
+    width: 100px;
+}
+
+footer{
+    text-align: center;
+}
+
+header h1{
+    display: inline-block;
+}
+
+#ricerca input{
+    margin-bottom: 30px;
+}
+
+#ricerca h2{
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 15px;
+}
+
+#ricerca span{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #ff8000;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 6px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#email p{
+    background-color: #808080;
+    color: #000000;
+}
+
+#email span{
+    color: #D3D3D3;
+}
+
+footer #powered{
+    font-family: 'Bellota', cursive;
+}
+
+#ricerca{
+    margin-top: 30px;
+}
+
+#email{
+    margin-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #ffffff;
+}
